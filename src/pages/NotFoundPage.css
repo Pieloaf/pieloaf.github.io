@@ -1,0 +1,29 @@
+.not-found{
+    color: #d3dcf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.not-found h1,
+.not-found h2{
+    margin: 2px 0;
+}
+#home{
+    padding: 7px;
+    border-radius: 4px;
+    border: solid #d3dcf1 2px;
+    font-family: source-code-pro;
+    font-weight: 300;
+    transition: all 0.2s ease-in-out;
+}
+
+#home:hover{
+    background-color: #98aee242;
+}
+
+#home a{
+    color: #d3dcf1;
+}

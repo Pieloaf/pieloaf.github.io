@@ -1,0 +1,78 @@
+#intro-card{
+    display: flex;
+    align-items: center;
+    font-family: source-code-pro;
+    font-weight: 500;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+#intro-card div{
+    margin: 0 20px;
+}
+
+.intro-text{
+    text-align:left;
+    min-width:100px;
+    max-width:500px;
+    color: #d3dcf1;
+}
+
+.intro-text p{
+    margin: .7em 0;
+    font-size: 1.2rem;
+}
+.intro-text h1{
+    font-size: 2.1em;
+}
+.intro-text h2{
+    margin: .4em 0;
+}
+.line-two{
+    display: inline;
+    color: #f0f8ff;
+}
+#pieloaf{
+    color: #d3dcf1a9
+}
+
+#profile-pic{
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 15px 12px rgba(0, 0, 0, 0.294);
+}
+.highlight{
+    color:#ffcf9d
+}
+.ext-links{
+    display: inline;
+    padding-left: 0;
+}
+.ext-links li{
+    font-size: 2rem;
+    display: inline;
+    margin: 0 3px;
+}
+
+.ext-links li a, 
+.ext-links li span
+{
+    color: #d3dcf1;
+    transition: all 0.3s ease-out;
+}
+
+.ext-links li a:hover,
+.ext-links li span:hover{
+    color: rgba(174, 210, 214, 0.959);
+}
+
+#discord-tip{
+    font-size: 1.1rem;
+    box-shadow: 6px 5px rgba(0, 0, 0, 0.294);
+}
+
+.ext-links li span:hover{
+    cursor: pointer;
+}

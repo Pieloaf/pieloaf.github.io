@@ -1,0 +1,35 @@
+@keyframes slideInFromBottom {
+    0% {
+      /* transform: translateY(55%); */
+      opacity: 01%;
+    }
+    100% {
+      /* transform: translateY(0); */
+      opacity: 100%;
+    }
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section > div{
+    animation: 2s ease-out slideInFromBottom;
+    margin: 50px 0px;
+}
+
+.home-footer{
+  padding: 15px 0;
+}
+
+.home-footer a{
+    color: #d3dcf1;
+    transition: all 0.3s ease-out;
+}
+
+.home-footer a:hover{
+  color: rgba(216, 216, 216, 0.959);
+} 
