@@ -1,4 +1,4 @@
-@keyframes slideInFromLeft {
+/* @keyframes slideInFromLeft {
     0% {
       transform: translateX(-55%);
       opacity: 25%;
@@ -7,9 +7,9 @@
       transform: translateX(0);
       opacity: 100%;
     }
-}
+} */
 
-@keyframes slideInFromRight {
+/* @keyframes slideInFromRight {
     0% {
         transform: translateX(55%);
         opacity: 25%;
@@ -18,7 +18,7 @@
         transform: translateX(0);
         opacity: 100%;
     }
-}
+} */
 
 .header{
     display: flex;
@@ -37,11 +37,11 @@
 }
 #title{
     font-size: 1.6rem;
-    animation: .8s ease-out slideInFromLeft;
+    /* animation: .8s ease-out slideInFromLeft; */
 }
-.nav-menu{
+/* .nav-menu{
     animation: .9s ease-out slideInFromRight;
-}
+} */
 .menu-item{
     padding: 0 5px;
     font-size: 1rem;

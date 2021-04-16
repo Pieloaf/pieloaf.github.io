@@ -1,13 +1,11 @@
-@keyframes slideInFromBottom {
+/* @keyframes fadeIn {
     0% {
-      /* transform: translateY(55%); */
       opacity: 01%;
     }
     100% {
-      /* transform: translateY(0); */
       opacity: 100%;
     }
-}
+} */
 
 .main{
     display: flex;
@@ -17,7 +15,7 @@
 }
 
 .section > div{
-    animation: 2s ease-out slideInFromBottom;
+    /* animation: 2s ease-out fadeIn; */
     margin: 50px 0px;
 }
 
