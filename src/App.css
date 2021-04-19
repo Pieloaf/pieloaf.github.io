@@ -8,7 +8,6 @@
 }
 .header{
   position: fixed;
-  z-index: 100;
 }
 a{
   text-decoration: none;

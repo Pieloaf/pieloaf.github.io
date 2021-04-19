@@ -106,8 +106,8 @@ class Projects extends React.Component {
     render() {
         return (
             <div id='projects'>
-                <h2 className='project-title'>Some Projects I've Worked On...</h2>
-                <h4 className='project-subtitle'>it's nothing much</h4>
+                <h2 className='section-title'>Some Projects I've Worked On...</h2>
+                <h4 className='section-subtitle'>it's nothing much</h4>
                 <ul className='project-cards'>
                     {this.state.cards}
                 </ul >

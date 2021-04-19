@@ -7,8 +7,8 @@ class About extends React.Component {
         return (
             <div id='about'>
                 <div className='about-header'>
-                    <h2 className='about-title'>About Me...</h2>
-                    <h4 className='about-subtitle'>well, just about my programming</h4>
+                    <h2 className='section-title'>About Me...</h2>
+                    <h4 className='section-subtitle'>well, just about my programming</h4>
                 </div>
                 <div className='about-body'>
                     <div className='right-side'>

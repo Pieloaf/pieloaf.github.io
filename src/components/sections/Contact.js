@@ -5,8 +5,8 @@ class Contact extends React.Component {
     render() {
         return (
             <div id='contact'>
-                <h2 className='project-title'>Contact Me...</h2>
-                <h4 className='project-subtitle'>if you want to :)</h4>
+                <h2 className='section-title'>Contact Me...</h2>
+                <h4 className='section-subtitle'>if you want to :)</h4>
                 <span className='contact-button'><h3><a href='mailto:piercelowe1@gmail.com'>Contact Me</a></h3></span>
             </div>
         );

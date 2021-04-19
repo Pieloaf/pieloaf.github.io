@@ -1,20 +1,10 @@
 #projects{
-   padding-top : 100px;
    max-width: 1200px;
    display: flex;
    flex-direction: column;
    align-items: center;
 }
 
-.project-title{
-    color: #f0f8ff;
-    margin-bottom: 0;
-}
-.project-subtitle{
-    color: #d3dcf1a9;
-    margin-top: 10px;
-    font-size: 1.1rem;
-}
 .project-cards{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -22,6 +12,7 @@
     margin: 10px;
 }
 #projects footer {
+    margin: 0 20px;
     margin-top: auto;
     font-family: source-code-pro;
     font-weight: 400;

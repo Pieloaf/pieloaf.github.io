@@ -17,6 +17,7 @@
 .section > div{
     /* animation: 2s ease-out fadeIn; */
     margin: 50px 0px;
+    padding-top: 50px;
 }
 
 .home-footer{
@@ -31,3 +32,16 @@
 .home-footer a:hover{
   color: rgba(216, 216, 216, 0.959);
 } 
+
+.section-title{
+  color: #f0f8ff;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.section-subtitle{
+  color: #d3dcf1a9;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
