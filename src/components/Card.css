@@ -8,7 +8,7 @@
     transition: all 0.2s ease-out;
     position: relative;
     color: #f0f8ff;
-    /* height: ; */
+    cursor: pointer;
 }
 .card-container:hover{
     box-shadow: 5px 5.5px rgba(0, 0, 0, 0.294);

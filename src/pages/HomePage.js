@@ -20,7 +20,7 @@ class HomePage extends Component {
                         <Contact />
                     </div>
                 </div>
-                <footer className='home-footer'><a href='https://github.com/pieloaf/pieloaf' target='_blank' rel="noopener noreferrer">Designed &amp; Made by Pierce Lowe [Pieloaf]</a></footer>
+                <footer className='home-footer'><a href='https://github.com/pieloaf' target='_blank' rel="noopener noreferrer">Designed &amp; Made by Pierce Lowe [Pieloaf]</a></footer>
             </div >
         );
     }

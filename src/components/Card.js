@@ -8,7 +8,7 @@ const Card = (props) => {
     const get_links = () => {
         var links = []
         props.gh ? links.push(<li><a href={props.gh}><IoLogoGithub /></a></li>) : do_nothing();
-        props.web ? links.push(<li><a href={props.gh}><RiExternalLinkLine /></a></li>) : do_nothing();
+        props.web ? links.push(<li><a href={props.web}><RiExternalLinkLine /></a></li>) : do_nothing();
         props.dc ? links.push(<li><a href={props.dc}><IoLogoDiscord /></a></li>) : do_nothing();
         props.tw ? links.push(<li><a href={props.tw}><IoLogoTwitch /></a></li>) : do_nothing();
         return links
@@ -25,7 +25,7 @@ const Card = (props) => {
     }
 
     return (
-        <a href={props.primary} className='card-container'>
+        <div onClick={() => { window.location = props.primary }} className='card-container'>
             <div className='card-header'>
                 <div className='text'>
                     <h2 className='card-heading'>{props.heading}</h2>
@@ -43,7 +43,7 @@ const Card = (props) => {
                     {get_footer()}
                 </ul>
             </footer>
-        </a>
+        </div>
     )
 }
 
