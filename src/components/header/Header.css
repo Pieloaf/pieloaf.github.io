@@ -50,7 +50,7 @@
     animation: .9s ease-out slideInFromRight;
 } */
 .menu-item{
-    padding: 0 5px;
+    padding: 0 10px;
     font-size: 1rem;
     display: inline;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './Intro.css'
 import ReactTooltip from 'react-tooltip';
 import profilePic from '../../data/images/profile-pic.png'
-import { IoLogoLinkedin, IoLogoGithub, IoLogoTwitter, IoLogoDiscord } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub, IoLogoTwitter, IoLogoDiscord, IoDocumentText } from 'react-icons/io5'
 
 class Intro extends React.Component {
     render() {
@@ -15,6 +15,7 @@ class Intro extends React.Component {
                     <ul className='ext-links'>
                         <li><a href='https://github.com/pieloaf' target="_blank" rel="noopener noreferrer"><IoLogoGithub /></a></li>
                         <li><a href='https://www.linkedin.com/in/pierce-lowe/' target="_blank" rel="noopener noreferrer"><IoLogoLinkedin /></a></li>
+                        <li><a href='./PierceLowe_CV_2021.pdf' download><IoDocumentText /></a></li>
                         <li><a href='https://twitter.com/pierce_lowe' target="_blank" rel="noopener noreferrer"><IoLogoTwitter /></a></li>
                         <li><span data-tip data-for='discord-tip' data-event='click' ><IoLogoDiscord /></span></li>
                         <ReactTooltip place="right" type="dark" effect="solid" id='discord-tip'>
