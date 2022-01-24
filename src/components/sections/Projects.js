@@ -26,10 +26,10 @@ class Projects extends React.Component {
                 <Card
                     heading='Darwin 1v1 League'
                     text='A community run project for a 1v1 League in the game Darwin Project. React front end, Node back end, Python Discord bot. Started in November 2020, it has grown to 800+ members.'
-                    web='https://darwin1v1league.com'
+                    web='https://1v1league.pieloaf.com'
                     gh='https://github.com/users/pieloaf/projects/1'
                     image={darwin}
-                    primary='https://darwin1v1league.com'
+                    primary='https://1v1league.pieloaf.com'
                     footer={['Python', 'React.js', 'Node.js', 'Express', 'MySQL']}
                 />,
                 <Card heading='Dijkstra&#39;s Algorithm'
@@ -38,6 +38,20 @@ class Projects extends React.Component {
                     primary='https://github.com/Pieloaf/dijkstras-algorithm-cpp'
                     footer={['C++']}
                     image={folder}
+                />,
+                <Card heading='VEC Report Assistant'
+                    gh='https://vibeng.com/'
+                    text='An Electon.js app to optimise the report writing process for VEC, a California based vibrtation consultancy company.'
+                    image={folder}
+                    primary='https://vibeng.com/'
+                    footer={['Electron.js', 'JavaScript', 'CSS', 'Python']}
+                />,
+                <Card heading='IoT Lab'
+                    gh='https://github.com/Pieloaf/IoT-Lab'
+                    text='IoT elective module from final year of uni. Working with Zephyr OS running on a BBC Micro:Bit V2 and communicating over BLE with a Raspberry Pi 4. The Raspberry Pi 4 runs an MQTT client which communicates with a HiveMQ broker.'
+                    image={folder}
+                    primary='https://github.com/Pieloaf/IoT-Lab'
+                    footer={['Zephyr OS', 'C', 'Node.js', 'BLE', 'MQTT']}
                 />,
                 <Card heading='Discord Movie Bot'
                     gh='https://github.com/Pieloaf/DiscordMovieNight'
@@ -53,20 +67,6 @@ class Projects extends React.Component {
                     primary='https://discord.gg/uSYdz6aC7r'
                     footer={['Python']}
                 />,
-                <Card heading='Robosumo (1st year Uni Project)'
-                    web='https://pierobosumo.wordpress.com/'
-                    text='A small project from my first year in uni. We were tasked with building a small robot to fight against robots built by other students at the end of the year'
-                    primary='https://pierobosumo.wordpress.com/'
-                    footer={['C++', 'Arduino']}
-                    image={folder}
-                />,
-                <Card heading='Discord Themes'
-                    gh='https://github.com/Pieloaf/Discord-Themes'
-                    text='A custom discord theme written with CSS. This was my first real experience working with CSS and was inspired to make it so it would match a spotify theme I had downloaded.'
-                    primary='https://github.com/Pieloaf/Discord-Themes'
-                    footer={['CSS']}
-                    image={discord}
-                />
             ]
         })
     };
@@ -76,6 +76,20 @@ class Projects extends React.Component {
             this.setState({
                 cards: [
                     ...this.state.cards,
+                    <Card heading='Robosumo (1st year Uni Project)'
+                        web='https://pierobosumo.wordpress.com/'
+                        text='A small project from my first year in uni. We were tasked with building a small robot to fight against robots built by other students at the end of the year'
+                        primary='https://pierobosumo.wordpress.com/'
+                        footer={['C++', 'Arduino']}
+                        image={folder}
+                    />,
+                    // <Card heading='Discord Themes'
+                    //     gh='https://github.com/Pieloaf/Discord-Themes'
+                    //     text='A custom discord theme written with CSS. This was my first real experience working with CSS and was inspired to make it so it would match a spotify theme I had downloaded.'
+                    //     primary='https://github.com/Pieloaf/Discord-Themes'
+                    //     footer={['CSS']}
+                    //     image={discord}
+                    // />,
                     <Card heading='Image to ASCII Art'
                         gh='https://github.com/Pieloaf/scripts/tree/master/Img2Ascii'
                         text='A small python script I wrote to convert images to ascii to art. It&#39;s a lil brokey so I should probably fix it up but yea. It was my first time working with OpenCV2.'

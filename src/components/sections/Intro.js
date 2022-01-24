@@ -11,7 +11,7 @@ class Intro extends React.Component {
                 <div className='intro-text'>
                     <h2>Heyo, my name is</h2>
                     <h1 className='line-two'>Pierce Lowe </h1><h2 className='line-two' id='pieloaf'>[Pieloaf]</h2>
-                    <p>I'm a 21 y/o, Irish, <span className='highlight'>Computer and Communications Engineering Student </span> with a passion for software engineering. I'm in my 3rd year of studying at TUDublin. I also have love for art and music.</p>
+                    <p>I'm a 22 y/o, Irish, <span className='highlight'>Computer and Communications Engineering Student </span> with a passion for software engineering. I'm in my final year of studying at TUDublin. I also have love for art and music.</p>
                     <ul className='ext-links'>
                         <li><a href='https://github.com/pieloaf' target="_blank" rel="noopener noreferrer"><IoLogoGithub /></a></li>
                         <li><a href='https://www.linkedin.com/in/pierce-lowe/' target="_blank" rel="noopener noreferrer"><IoLogoLinkedin /></a></li>
